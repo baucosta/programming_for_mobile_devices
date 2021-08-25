@@ -1,0 +1,48 @@
+<!-- <p>
+  component-test works! hello World
+</p>
+
+ {{myFirstInterpolation}}
+
+ {{anotherTest | json}}
+
+ <h2>{{myFirstInterpolation}}</h2> -->
+
+
+ 
+{{anotherVariable}} + {{anotherVariable}} = 20
+
+{{anotherTest | json}}
+
+{{3 + 3}}
+
+
+{{getName()}}
+
+{{anotherVariable === 10 ? 'hello world' : 'nao sei'}}
+
+{{myImage}}
+
+<img [src]="myImage" />
+
+<a [class.bg]="anotherVariable === 10">class binding</a>
+<a 
+  [style.backgroundColor]="anotherVariable === 10 ? '#f00' : '#ff0'">
+    style binding
+</a>
+
+<p 
+  [ngStyle]="{
+    'backgroundColor': '#000',
+    'font-size': '20px',
+    'color': '#fff'
+  }">
+  Hello world
+
+</p>
+
+
+<p [ngStyle]="setMyStyle()">
+  more one hello world
+
+</p>
